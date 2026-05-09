@@ -8,7 +8,7 @@ from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe
 
 import prompts
 
-api_key = st.secrets["OPENROUTER_API_KEY"]
+api_key = st.secrets["GROQ_API_KEY"]
 
 st.set_page_config(page_title="AI Data Analyst", layout="wide")
 
