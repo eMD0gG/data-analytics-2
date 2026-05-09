@@ -53,5 +53,5 @@ streamlit run app.py
 
 **Выходные данные:**
 
-![Ответ модели](.\assets\Screenshot1.png)
-![Ответ модели](.\assets\Screenshot2.png)
+![Ответ модели](./assets/Screenshot1.png)
+![Ответ модели](./assets/Screenshot2.png)
