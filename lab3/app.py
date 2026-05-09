@@ -18,7 +18,7 @@ if not api_key:
     st.error("Критическая ошибка: GROQ_API_KEY не найден в .env файле")
     st.stop()
 
-st.title("🤖 Аналитический ИИ-агент")
+st.title("Аналитический ИИ-агент")
 
 uploaded_file = st.file_uploader("Загрузите CSV", type=["csv"])
 
