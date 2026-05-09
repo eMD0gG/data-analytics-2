@@ -3,14 +3,12 @@ import pandas as pd
 import os
 import glob
 import matplotlib.pyplot as plt
-from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe_agent
 
 import prompts
 
-load_dotenv()
-api_key = os.getenv("GROQ_API_KEY")
+api_key = st.secrets["OPENROUTER_API_KEY"]
 
 st.set_page_config(page_title="AI Data Analyst", layout="wide")
 
